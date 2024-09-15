@@ -36,7 +36,7 @@ yum update -y
 yum install -y httpd
 systemctl start httpd
 systemctl enable httpd
-echo "<center><h1>AWS 3-Tier Web Application - NatureNest</h1></center>" > /var/www/html/index.html
+echo "<center><h1>AWS 3-Tier Web Application-NatureNest</h1></center>" > /var/www/html/index.html
 
 
 8.	Create the template and then move to Auto Scaling Groups. Set up an Auto Scaling group with the template, select the public subnets, and proceed.
