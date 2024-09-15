@@ -65,7 +65,8 @@ Part 4: Database Tier Setup
  
 Part 5: Testing and Verification
 1.	Access the public IP of a Web Tier EC2 instance in your browser to check if the website is live.
-   ![1](Desktop/1.jpg)
+   ![1](https://github.com/Pranav-2727/AWS-Projects/blob/main/3-Tier%20Web%20Application/1.jpg)
+
 
       
 2.  SSH into the Web Tier EC2 and ping a private IPv4 (10.0.3.72) address of an Application Tier EC2 instance.
