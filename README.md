@@ -66,26 +66,28 @@ Part 4: Database Tier Setup
 Part 5: Testing and Verification
 1.	Access the public IP of a Web Tier EC2 instance in your browser to check if the website is live.
    
-   ![1](https://github.com/Pranav-2727/AWS-Projects/blob/main/3-Tier%20Web%20Application/1.jpg)
+   ![1](https://github.com/Pranav-2727/AWS-Projects/blob/main/3-Tier%20Web%20Application/NatureNest%20Project/1.jpg)
 
 
       
 2.  SSH into the Web Tier EC2 and ping a private IPv4 (10.0.3.72) address of an Application Tier EC2 instance.
 
-    ![2](https://github.com/Pranav-2727/AWS-Projects/blob/main/3-Tier%20Web%20Application/2.jpg)
+
+    ![2](https://github.com/Pranav-2727/AWS-Projects/blob/main/3-Tier%20Web%20Application/NatureNest%20Project/2.jpg)
 
  
 
 3.	Install MySQL on the Application Tier EC2 instance and use the RDS endpoint to connect to the MySQL database.
 mysql -h <RDS-Endpoint> -P 3306 -u admin -p
 
-   ![3](https://github.com/Pranav-2727/AWS-Projects/blob/main/3-Tier%20Web%20Application/3.jpg)
+
+   ![3](https://github.com/Pranav-2727/AWS-Projects/blob/main/3-Tier%20Web%20Application/NatureNest%20Project/3.jpg)
 
 
         
  AWS 3-Tier Architecture
  
- ![4](https://github.com/Pranav-2727/AWS-Projects/blob/main/3-Tier%20Web%20Application/4.jpg)
+ ![4](https://github.com/Pranav-2727/AWS-Projects/blob/main/3-Tier%20Web%20Application/NatureNest%20Project/4.jpg)
 
 
 
